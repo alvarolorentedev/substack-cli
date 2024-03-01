@@ -1,7 +1,7 @@
 {
-  "name": "substack-cli",
+  "name": "substack-site-cli",
   "version": "0.0.1",
-  "description": "cli for substack cloud",
+  "description": "cli for substack",
   "main": "index.ts",
   "contributors": [
     {
