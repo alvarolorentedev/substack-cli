@@ -7,7 +7,7 @@ To facilitate interaction with substack
 
 ## Installation
 
-Add it to your computer `npm install substack-cli -g` or `yarn add substack-cli -g`
+Add it to your computer `npm install substack-site-cli -g` or `yarn add substack-site-cli -g`
 
 To ensure subc is installed properly, run the following command:
 

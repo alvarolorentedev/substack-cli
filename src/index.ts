@@ -8,7 +8,7 @@ import { retrieve } from './subscribers'
 const packageJson = JSON.parse(readFileSync(__dirname + '/../package.json', 'utf8'))
 const config = new Configstore(packageJson.name, {})
 
-program.name('substack-cli').description('CLI for substack').version(packageJson.version)
+program.name('substack').description('CLI for substack').version(packageJson.version)
 
 program
   .command('init')
