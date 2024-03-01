@@ -1,9 +1,10 @@
-export const init = async (config: any) => {
+export const init = async (opts: any, config: any) => {
   try {
-    if (!process.env['SUBSTACK_COOKIE']) console.error('unable to find cookie in SUBSTACK_COOKIE environment variable')
+    console.log(opts)
 
-    config.set('cookie', process.env['SUBSTACK_COOKIE'])
+    config.set('cookie', opts.cookie)
+    config.set('domain', opts.domain)
   } catch (err) {
-    console.error('Authentication failed', err)
+    console.error('Initialization failed', err)
   }
 }
