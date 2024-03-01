@@ -26,17 +26,17 @@ my-user@my-machine:~/$ txc -V
 
 After installation the application will be available through the command `substack` and will provide the next set of commands:
 
-### 1. Login
+### 1. Init
 
-you can run this command through the next command line:
+This command will initialize the CLI so you can execute other commands:
 
 ```sh
-substack login
+substack init --cookie "<copy and paste the substack cookie here>" --domain "<your newsletter site domain>"
 ```
 
 ### 1. Subscribers
 
-you can run this command through the next command line:
+This command will allow you to export your subscribers as `CSV` or `JSON`, you will be prompted several questions
 
 ```sh
 substack subcribers
